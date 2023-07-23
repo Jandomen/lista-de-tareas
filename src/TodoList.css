@@ -1,0 +1,82 @@
+/* TodoList.css */
+
+/* Estilos para el contenedor del componente TodoList */
+.todo-list-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Estilos para el encabezado del componente */
+  .todo-header {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  /* Estilos para el formulario */
+  .todo-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  /* Estilos para el campo de entrada de nueva tarea */
+  .todo-form input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  /* Estilos para los botones */
+  .add-button,
+  .edit-button,
+  .save-button,
+  .delete-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .add-button:hover,
+  .edit-button:hover,
+  .save-button:hover,
+  .delete-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para la lista de tareas */
+  .tasks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos para cada tarea */
+  .task-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Estilos para los botones de cada tarea */
+  .task-buttons {
+    margin-left: auto;
+  }
+
+ body {
+    background-image:url(../public/bac2.webp);
+ }
